@@ -1,3 +1,6 @@
+<?php
+// index.php
+?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -5,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jam Digital Keren</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
     body {
       margin: 0;
       padding: 0;
@@ -31,8 +36,6 @@
       background: rgba(0, 0, 0, 0.3);
       box-shadow: 0 0 30px rgba(0, 255, 231, 0.3);
     }
-
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
   </style>
 </head>
 <body>
@@ -48,7 +51,7 @@
     }
 
     setInterval(updateClock, 1000);
-    updateClock(); // Update awal
+    updateClock(); // Panggil langsung saat awal load
   </script>
 </body>
 </html>
